@@ -806,7 +806,7 @@ function SupportSection() {
                   Chat with Zylo Support
                 </a>
                 <a
-                  href="/zylo-user-manual.pdf"
+                  href={`${import.meta.env.BASE_URL}zylo-user-manual.pdf`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-3 rounded-xl border border-border bg-card px-5 py-3 text-sm font-semibold text-foreground transition hover:bg-accent"
